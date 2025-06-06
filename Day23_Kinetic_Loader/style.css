@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #0a0e14;
+    --secondary-color: #1a1f26;
+    --accent-color: #4a90e2;
+    --glow-color: #64b5f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.loader-container {
+    text-align: center;
+}
+
+.kinetic {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto 30px;
+}
+
+.kinetic::after,
+.kinetic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: var(--accent-color);
+    animation: rotateA 2s ease-in-out infinite 0.4s;
+    filter: drop-shadow(0 0 5px var(--glow-color));
+}
+
+.kinetic::before {
+    transform: rotate(90deg);
+    border-bottom-color: var(--accent-color);
+    animation: rotateB 2s ease-in-out infinite;
+    filter: drop-shadow(0 0 5px var(--glow-color));
+}
+
+.loading-text {
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes rotateA {
+
+    0%,
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50%,
+    75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateB {
+
+    0%,
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50%,
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 50%, rgb(74, 145, 226) 0%, transparent 70%);
+    animation: breathe 4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes breathe {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.35;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.1;
+    }
+}

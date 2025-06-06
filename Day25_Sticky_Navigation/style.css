@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Serif JP', sans-serif;
+    color: var(--light-color);
+    padding-bottom: 50px;
+    background-color: var(--primary-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: fixed;
+    background: linear-gradient(135deg, #14171c, #1e222a);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: var(--light-color);
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav img {
+    width: 148.752px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav.active img {
+    width: 123.984px;
+    height: auto;
+}
+
+.nav.active {
+    background: linear-gradient(135deg, rgb(44, 50, 59), rgb(20, 23, 28));
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+    color: white;
+}
+
+.hero {
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/556/658/431/spirited-away-studio-ghibli-anime-wallpaper-6bb61c1d6321bf490554db29fd7c8c70.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    z-index: -2;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin: -20px 0 20px;
+}
+
+.hero p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.content h2 {
+    color: white;
+    font-size: 175%;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.content p {
+    color: var(--light-color);
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-size: 1.05rem;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 60px;
+    padding: 30px;
+    background: linear-gradient(135deg, #14171c, #1e222a);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .nav .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content p {
+        text-align: left;
+    }
+
+    .section {
+        max-width: 90%;
+        margin: 0 auto 60px;
+    }
+}

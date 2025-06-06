@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+#toasts {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.toast {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    font-size: 15px;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: translateX(100%);
+    animation: slideIn 0.3s ease-out forwards;
+    position: relative;
+    border-left: 4px solid;
+}
+
+.toast.removing {
+    animation: slideOut 0.3s ease-in forwards;
+}
+
+.toast::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+.toast.info {
+    border-left-color: #3498db;
+    color: #2c3e50;
+}
+
+.toast.info::before {
+    content: "\f05a";
+    color: #3498db;
+}
+
+.toast.success {
+    border-left-color: #27ae60;
+    color: #2c3e50;
+}
+
+.toast.success::before {
+    content: "\f00c";
+    color: #27ae60;
+}
+
+.toast.error {
+    border-left-color: #e74c3c;
+    color: #2c3e50;
+}
+
+.toast.error::before {
+    content: "\f06a";
+    color: #e74c3c;
+}
+
+.toast-message {
+    flex: 1;
+    font-weight: 400;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #95a5a6;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+    color: #7f8c8d;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}

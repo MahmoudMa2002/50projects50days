@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #4a9eff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    gap: 20px;
+}
+
+.empty {
+    height: 200px;
+    width: 200px;
+    border: solid 3px var(--primary-color);
+    background: var(--secondary-color);
+    border-radius: 8px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.empty::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: 2px dashed var(--light-color);
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.fill {
+    background-image: url('https://images.unsplash.com/photo-1552083940-86877723de7a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 194px;
+    width: 194px;
+    cursor: grab;
+    border-radius: 6px;
+    transition: all 0.7s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.fill:active {
+    cursor: grabbing;
+}
+
+.hold {
+    border: solid 3px var(--accent-color);
+    transform: rotate(5deg) scale(1.05);
+    box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.hovered {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(74, 158, 255, 0.4);
+}
+
+.hovered::after {
+    opacity: 0;
+}
+
+@media (max-width: 1070px) {
+    body {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .empty {
+        height: 150px;
+        width: 150px;
+    }
+
+    .fill {
+        height: 144px;
+        width: 144px;
+    }
+
+    .empty::before {
+        width: 45px;
+        height: 45px;
+    }
+}

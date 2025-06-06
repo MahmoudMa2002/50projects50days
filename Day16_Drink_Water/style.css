@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --border-color: #728397;
+    --fill-color: #6fa8eb;
+    --bg-color: #14171c;
+    --text-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+h1 {
+    margin: 50px 0 0;
+    font-weight: 600;
+    color: var(--fill-color);
+}
+
+h3 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.cup {
+    background-color: white;
+    border: 4px solid var(--border-color);
+    color: var(--border-color);
+    border-radius: 0 0 40px 40px;
+    height: 330px;
+    width: 150px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.cup.cup-small {
+    height: 95px;
+    width: 50px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cup.cup-small:hover {
+    transform: scale(1.05);
+}
+
+.cup.cup-small.full {
+    background-color: var(--fill-color);
+    color: white;
+}
+
+.cups {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    margin-top: 10px;
+}
+
+.remained {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    transition: 0.3s ease;
+}
+
+.remained span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.remained small {
+    font-size: 12px;
+}
+
+.percentage {
+    background-color: var(--fill-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    height: 0;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.text {
+    text-align: center;
+    margin: 0 0 10px;
+    max-width: 300px;
+}
+
+.reset-btn {
+    background-color: var(--border-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.reset-btn:hover {
+    background-color: var(--fill-color);
+    transform: scale(1.05);
+}
+
+@media (max-height: 850px) {
+    body {
+        overflow-y: scroll;
+    }
+}

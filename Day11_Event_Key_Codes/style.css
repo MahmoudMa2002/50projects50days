@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+/*
+#14171c
+#8899AA
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14171c;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.key {
+    border: 0px solid #8899AA;
+    background-color: #8899AA;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 190px;
+    height: 90px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.keyM {
+    width: 600px;
+    height: 90px;
+}
+
+p {
+    color: #8899AA;
+    font-weight: bold;
+}
+
+.key:hover:nth-of-type(2) {
+    background-color: #8899aa8c;
+    border-color: #8899aa8c;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.key small {
+    position: absolute;
+    font-size: 22px;
+    top: -40px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #8899AA;
+    transition: all 0.3s ease;
+}
+
+.key.copied:nth-of-type(2) {
+    background-color: #14171c;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+@media (max-width:600px) {
+    .keyM {
+    width: 300px;
+    height: 200px;
+}
+.key{
+     flex-direction: column; /* hamburger style */
+    align-items: center; /* optional */
+    margin: 20px;
+    width: 75%;
+}
+small{
+    margin-top: 10px;
+}
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*
+#14171c
+#8899AA
+*/
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --font-color: #8899AA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: var(--secondary-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+form#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    margin: 0 0 0 50px;
+    padding: 15px;
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid var(--font-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    color: var(--font-color);
+}
+
+.search::placeholder {
+    color: var(--font-color);
+}
+
+.search:focus {
+    outline: none;
+    background-color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.movie {
+    width: 300px;
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgb(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+}
+
+.movie img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.movie .no-image {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: var(--font-color);
+    font-size: 1.5rem;
+}
+
+.movie-info {
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+    margin-top: 0;
+    max-width: 200px;
+}
+
+.overview h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.links img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-info span {
+    background-color: var(--primary-color);
+    padding: 0.25rem .5rem;
+    border-radius: 10%;
+    width: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-info span.blue {
+    color: #4a90e2;
+}
+
+
+.movie-info span.green {
+    color: lightgreen;
+}
+
+.movie-info span.orange {
+    color: orange;
+}
+
+.movie-info span.red {
+    color: red;
+}
+
+.overview {
+    background-color: white;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+.overview p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.overview img {
+    width: 50px;
+    height: 50px;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    color: var(--font-color);
+}
+
+.pagination button {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    height: 91.75px;
+}
+
+footer div {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+footer p {
+    position: relative;
+    font-size: 15px;
+    color: var(--font-color);
+    margin: 10px 0 0 50px;
+}
+
+footer a {
+    color: var(--font-color);
+    margin-left: 5px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #3b82f6;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.instructions {
+    color: var(--light-color);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.instructions h2 {
+    margin: 0 0 8px 0;
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: all 2s ease;
+    border-radius: 2px;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
+.square.active {
+    background-color: var(--accent-color);
+    box-shadow: 0 0 2px var(--accent-color), 0 0 10px var(--accent-color);
+}
+
+.square.locked {
+    background-color: var(--accent-color);
+    box-shadow: 0 0 4px var(--accent-color), 0 0 15px var(--accent-color);
+    transform: scale(1.05);
+}
+

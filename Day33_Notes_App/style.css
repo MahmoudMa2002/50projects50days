@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #3b82f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 3rem 1rem 1rem;
+    background-color: var(--primary-color);
+    min-height: 100vh;
+}
+
+.add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    z-index: 100;
+}
+
+.add:hover {
+    background-color: #66717c;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.note {
+    background-color: var(--light-color);
+    box-shadow: 0 8px 24px rgba(43, 43, 43, 0.4);
+    margin: 20px;
+    height: 420px;
+    width: 330px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(78, 78, 78, 0.5);
+}
+
+.note .tools {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.7rem;
+    gap: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: var(--light-color);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.note .tools button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    height: calc(100% - 60px);
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    resize: none;
+    line-height: 1.5;
+}
+
+.note textarea::placeholder {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.main {
+    padding: 10px 20px;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    color: var(--primary-color);
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main p {
+    margin: 0 0 0.25rem 0;
+    color: var(--secondary-color);
+}
+
+
+.hidden {
+    display: none;
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    color: var(--light-color);
+    text-align: center;
+}
+
+.empty-state i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.empty-state h2 {
+    margin: 0;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .note {
+        width: calc(100vw - 40px);
+        margin: 20px;
+    }
+}

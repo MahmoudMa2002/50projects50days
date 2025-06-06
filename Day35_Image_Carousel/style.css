@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #3b82f6;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel {
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    height: 640px;
+    width: 900px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem;
+    width: 49.8%;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+i {
+    font-weight: 700;
+    color: var(--light-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.96);
+}
+
+.indicators {
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator.active {
+    background: white;
+    transform: scale(1.2);
+}
+
+@media (max-width: 900px) {
+    .carousel {
+        max-width: 80%;
+    }
+}

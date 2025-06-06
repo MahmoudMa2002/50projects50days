@@ -11,10 +11,7 @@ const animated_bgs_texts = document.querySelectorAll('.animated-bg-text');
 
 setTimeout(getData, 2500);
 
-btn.addEventListener('click', () => {
-    location.reload();
-})
-
+btn.addEventListener('click', getData)
 
 function truncateText(text, maxLength) {
     if (text.length <= maxLength) {
@@ -24,6 +21,16 @@ function truncateText(text, maxLength) {
 }
 
 function getData() {
+    animated_bgs.forEach(bg => bg.classList.add('animated-bg'));
+    animated_bgs_texts.forEach(bg => bg.classList.add('animated-bg-text'));
+
+    title.textContent = '';
+    excerpt.textContent = '';
+    header.innerHTML = '';
+    profile_img.innerHTML = '';
+    Uname.textContent = '';
+    date.textContent = '';
+
     const postId = Math.floor(Math.random() * 100) + 1;
 
     fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)

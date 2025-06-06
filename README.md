@@ -10,7 +10,7 @@ This collection showcases a 50 different web development projects, each built to
 | 02 | Progress Steps | [Demo](https://codepen.io/MahmoudMa2002/full/raVwYZZ/) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day02_Progress_Steps) |
 | 03 | Rotating Navigation | [Demo](https://codepen.io/MahmoudMa2002/full/wBaepwq/) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day03_Rotating_Nav_Bar) |
 | 04 | Hidden Search Widget | [Demo](https://codepen.io/MahmoudMa2002/full/wBaepar) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day04_Hidden_Search) |
-| 05 | Blurry Loading | [Demo](https://50projects50days.com/projects/blurry-loading/) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day05_Blurry_Loading) |#############
+| 05 | Blurry Loading | [Demo](https://codepen.io/MahmoudMa2002/full/ogXwRGp) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day05_Blurry_Loading) |#############
 | 06 | Scroll Animation | [Demo](https://codepen.io/MahmoudMa2002/full/WbvOdxz) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day06_Scroll_Animation) |
 | 07 | Split Landing Page | [Demo](https://codepen.io/MahmoudMa2002/full/azOwEVz) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day07_Split_Landing_Page) |
 | 08 | Form Wave Animation | [Demo](https://codepen.io/MahmoudMa2002/full/azOwEVz) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day08_Form_Input_Wave) |

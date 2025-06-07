@@ -1,6 +1,6 @@
 # 50 Projects in 50 Days - HTML, CSS & JavaScript
 
-This collection showcases a 50 different web development projects, each built to teach concepts and techniques in HTML, CSS, and JavaScript. The projects range from simple animations and UI components to more complex applications involving APIs and advanced JavaScript functionality.
+This collection features 50 web development projects built with HTML, CSS, and JavaScript. I enhanced each project with improvements in functionality, design, responsiveness, and usability. Specific improvements are documented in each project's README file.
 
 ## Project List
 
@@ -49,4 +49,4 @@ This collection showcases a 50 different web development projects, each built to
 
 ## Course Information
 
-*These projects are part of the [50 Projects in 50 Days Course] course by [Brad Traversy], designed to improve your HTML, CSS, and JavaScript skills through hands-on practice and real-world examples.*
+*These projects are based on the [50 Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/) course by [Brad Traversy](https://github.com/bradtraversy), designed to improve your HTML, CSS, and JavaScript skills.*

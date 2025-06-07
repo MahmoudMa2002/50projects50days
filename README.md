@@ -44,6 +44,8 @@ This collection showcases a 50 different web development projects, each built to
 | 36 | Hoverboard | [Demo](https://codepen.io/MahmoudMa2002/full/raVwryJ) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day36_Hoverboard) |
 | 37 | Pokedex | [Demo](https://codepen.io/MahmoudMa2002/full/zxGzLwa) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day37_Pokedex) |
 | 38 | Mobile Tab Navigation | [Demo](https://codepen.io/MahmoudMa2002/full/jEPwpLm) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day38_Mobile_Navigation) |
+| 39 | Password Strength Background | [Demo](https://codepen.io/MahmoudMa2002/full/YPXxBae) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day39_Background_Strength) |
+| 40 | 3D Background Boxes | [Demo](https://codepen.io/MahmoudMa2002/full/PwqKLLP) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day40_3D_Boxes) |
 
 ## Course Information
 

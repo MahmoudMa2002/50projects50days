@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Password Strength Background</title>
+</head>
+
+<body>
+    <div class="background" id="background"></div>
+
+    <div class="bg-white/90 backdrop-blur-sm rounded-lg p-8 text-center shadow-xl max-w-md w-full mx-4">
+        <h1 class="text-3xl font-bold text-gray-800 mb-2">Password Strength</h1>
+        <p class="text-sm text-gray-600 mb-6">Watch the background clear as your password gets stronger</p>
+
+        <div class="space-y-4 text-left">
+            <div class="input-group">
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email:</label>
+                <input type="email"
+                    class="border border-gray-300 block w-full p-3 rounded-lg transition-all duration-200" id="email"
+                    placeholder="Enter your email">
+            </div>
+
+            <div class="input-group">
+                <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password:</label>
+                <input type="password"
+                    class="border border-gray-300 block w-full p-3 rounded-lg transition-all duration-200" id="password"
+                    placeholder="Enter your password">
+                <div class="strength-indicator">
+                    <div class="strength-bar" id="strengthBar"></div>
+                </div>
+                <div class="strength-text text-gray-500" id="strengthText">Enter a password</div>
+            </div>
+        </div>
+
+        <button
+            class="bg-blue-600 hover:bg-blue-700 text-white py-3 mt-6 w-full rounded-lg font-medium transition-colors duration-200">
+            Sign In
+        </button>
+    </div>
+        <script src="script.js"></script>
+
+</body>
+</html>

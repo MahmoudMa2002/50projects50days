@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #3b82f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn {
+    background: var(--light-color);
+    box-shadow: 0 2px 10px var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    position: fixed;
+    top: 20px;
+    letter-spacing: 1px;
+    z-index: 100;
+}
+
+.btn:hover i {
+    transform: rotate(360deg);
+    transition: all 0.4s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.boxes.big {
+    width: 490px;
+    height: 490px;
+}
+
+.boxes.big .box {
+    transform: rotateZ(360deg);
+}
+
+.box {
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGNyd3lxMHI3YWFzb3dmbzVnaDIzcjd1OTc1bjA5azJjNWNzbGtvYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l5JbspfwZ0yjHjlJ0K/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.35s ease;
+}
+
+.box:hover {
+    transform: translateY(-20px) scale(1.02) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.box::after,
+.box.big::after {
+    content: '';
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 8px;
+    right: -15px;
+    height: 100%;
+    width: 15px;
+    transform: skewY(45deg);
+}
+
+.box::before,
+.box.big::before {
+    content: '';
+    background-color: #20242b;
+    position: absolute;
+    bottom: -15px;
+    left: 8px;
+    height: 15px;
+    width: 100%;
+    transform: skewX(45deg);
+}

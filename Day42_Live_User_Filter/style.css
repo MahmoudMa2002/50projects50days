@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #3b82f6;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+}
+
+.title {
+    margin: 0;
+}
+
+.subtitle {
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+}
+
+.header {
+    background-color: var(--light-color);
+    padding: 30px 20px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.header input {
+    background-color: rgba(0, 0, 0, 0.534);
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 15px 10px 45px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.header input:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.header input:focus {
+    outline: none;
+}
+
+.user-list {
+    background-color: var(--secondary-color);
+    list-style-type: none;
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-color: var(--light-color) var(--secondary-color);
+    margin: 0;
+    padding: 10px;
+}
+
+.user-list li {
+    display: flex;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.user-list img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.user-list .user-info {
+    margin-left: 15px;
+}
+
+.user-list .user-info h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.user-list .user-info p {
+    font-size: 12px;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.user-list li:not(:last-of-type) {
+    border-bottom: 1px solid rgba(136, 153, 170, 0.2);
+}
+
+.user-list li.hide {
+    display: none;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px 20px;
+    opacity: 0.7;
+}

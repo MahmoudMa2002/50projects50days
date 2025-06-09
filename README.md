@@ -46,6 +46,10 @@ This collection features 50 web development projects built with HTML, CSS, and J
 | 38 | Mobile Tab Navigation | [Demo](https://codepen.io/MahmoudMa2002/full/jEPwpLm) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day38_Mobile_Navigation) |
 | 39 | Password Strength Background | [Demo](https://codepen.io/MahmoudMa2002/full/YPXxBae) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day39_Background_Strength) |
 | 40 | 3D Background Boxes | [Demo](https://codepen.io/MahmoudMa2002/full/PwqKLLP) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day40_3D_Boxes) |
+| 41 | Verify Account UI | [Demo](https://codepen.io/MahmoudMa2002/full/bNdoVqN) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day41_Verify_Account_UI) |
+| 42 | Live User Filter | [Demo](https://codepen.io/MahmoudMa2002/full/ogXGjVV) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day42_Live_User_Filter) |
+| 43 | Feedback UI Design | [Demo](https://codepen.io/MahmoudMa2002/full/GgJOJOO) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day43_Feedback_UI_Design) |
+| 44 | Custom Range Slider | [Demo](https://codepen.io/MahmoudMa2002/full/emNeJEr) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day44_Custom_Range_Slider) |
 
 ## Course Information
 

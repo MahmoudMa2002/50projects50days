@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #14171c;
+    --secondary-color: #2c323b;
+    --light-color: #8899AA;
+    --accent-color: #3b82f6;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+}
+
+.testimonial-container {
+    background-color: var(--light-color);
+    color: white;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 50px 80px;
+    max-width: 768px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-container:hover {
+    transform: translateY(-5px);
+}
+
+.fa-quote {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 28px;
+    position: absolute;
+    transition: opacity 0.5s ease;
+}
+
+.fa-quote-right {
+    left: 40px;
+    top: 30px;
+}
+
+.fa-quote-left {
+    right: 40px;
+    bottom: 30px;
+}
+
+.testimonial {
+    line-height: 28px;
+    text-align: justify;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease 0.2s forwards;
+}
+
+.user-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.user-details {
+    margin-left: 15px;
+}
+
+.username {
+    margin: 0;
+    font-weight: 700;
+}
+
+.role {
+    font-weight: normal;
+    margin: 5px 0 0 0;
+    opacity: 0.8;
+}
+
+.progress-bar {
+    background-color: white;
+    height: 4px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    transform-origin: left;
+    animation: grow 10s linear infinite;
+}
+
+
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.left-control-btn,
+.right-control-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+}
+
+.left-control-btn:hover,
+.right-control-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#prevBtn {
+    left: 15px;
+}
+
+#nextBtn {
+    right: 15px;
+}
+
+.user .role {
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+@media (max-width:768px) {
+    .testimonial-container {
+        padding: 20px 30px;
+    }
+
+    .fa-qoute {
+        display: none;
+    }
+}

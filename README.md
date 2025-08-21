@@ -2,7 +2,7 @@
 
 This collection features 50 web development projects built with HTML, CSS, and JavaScript. I enhanced each project with improvements in functionality, design, responsiveness, and usability. Specific improvements are documented in each project's README file.
 
-![Projects Thumbnail]([https://res.cloudinary.com/dqcv0p9p6/image/upload/v1749575325/Screenshot_1_zr3lzp.png](https://res.cloudinary.com/dqcv0p9p6/image/upload/photo_2025-06-18_13-05-57_aswiba.jpg))
+![Projects Thumbnail](https://res.cloudinary.com/dqcv0p9p6/image/upload/v1755782055/photo_2025-06-18_13-05-57_aswiba.jpg)
 
 ## Project List
 

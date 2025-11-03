@@ -36,4 +36,4 @@ A dynamic step-by-step progress indicator with visual feedback built with JavaSc
 
 
 ## Links
-[View Project](https://codepen.io/MahmoudMa2002/full/raVwYZZ/) | [Back to Main Projects List](../Progress_Steps_readme.md)
+[View Project](https://codepen.io/MahmoudMa2002/full/raVwYZZ/) | [Back to Main Projects List](../README.md)

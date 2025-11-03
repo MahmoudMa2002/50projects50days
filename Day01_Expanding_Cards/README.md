@@ -29,8 +29,5 @@ An interactive film card UI built with HTML, CSS, and JavaScript.
 - CSS transitions and easing  
 - Managing active states with JavaScript  
 
-##  Live Demo
-[View Project](https://codepen.io/MahmoudMa2002/full/wBaerNv) 
-
-
-[ Back to Main Projects List](../README.md)
+##  Links
+[View Project](https://codepen.io/MahmoudMa2002/full/wBaerNv) | [ Back to Main Projects List](../README.md)

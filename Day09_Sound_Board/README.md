@@ -23,7 +23,6 @@ An interactive sound board application that dynamically generates buttons with i
 ## Improvements Made
 - **Enhanced visual design** – Applied dark theme with custom color scheme and images
 - **Interactive feedback** – Added hover effects with opacity changes and smooth transforms
-- **Professional typography** – Integrated Google Fonts (Roboto) for clean, modern appearance
 
 
 ## What I Learned

@@ -24,7 +24,6 @@ A dynamic step-by-step progress indicator with visual feedback built with JavaSc
 - **Enhanced visual design** – Added custom color scheme and improved typography
 - **Dynamic content** – Integrated step images and descriptive text that changes with progress
 - **Better user experience** – Added visual container with rounded corners and proper spacing
-- **Contextual information** – Each step now shows relevant images and descriptions
 - **Improved styling** – Enhanced button interactions and hover states
 
 

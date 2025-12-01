@@ -21,7 +21,7 @@ A simple, interactive drag and drop component built with JavaScript.
 
 ## Improvements Made
 - **Enhanced visual feedback** – Added smooth transitions, hover effects, and better color scheme
-- **Mobile responsiveness** – Optimized sizing and layout for smaller screens
+- **Mobile responsiveness** – Optimized sizing and layout for smaller screens (even though the project is drag and drop and that doesn't work on phones)
 - **Code quality** – Cleaner event listener setup
 
 

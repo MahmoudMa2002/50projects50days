@@ -19,7 +19,7 @@ A simple expandable search interface that transforms from a button into a full s
 
 
 ## Improvements Made
-- **Minimal changes** – Simple project with few modifications to the original design and animations
+- **Minimal changes** – Simple project, did a modifications to the original design and animations
 
 
 ## What I Learned

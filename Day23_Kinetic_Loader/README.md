@@ -21,9 +21,8 @@ A loading animation featuring rotating triangular elements with smooth kinetic m
 
 
 ## Improvements Made
-- **Enhanced color scheme** – Implemented CSS custom properties with a dark theme using primary, secondary, accent, and glow color variables
 - **Advanced visual effects** – Added drop-shadow filters to create glowing effects on the rotating triangles
-- **Atmospheric background** – Created animated radial gradient overlay that breathes and scales to add depth
+- **Atmospheric background** – Created animated radial gradient overlay that scales to add depth
 - **Improved typography** – Added loading text with spacing, weight, and pulsing animation
 - **Modern gradient background** – Replaced solid background with a linear gradient
 

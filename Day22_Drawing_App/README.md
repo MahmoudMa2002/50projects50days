@@ -22,8 +22,7 @@ An interactive web-based drawing application with adjustable brush sizes, color 
 
 
 ## Improvements Made
-- **Responsive canvas design** – Added dynamic canvas resizing that adapts to window size while maintaining aspect ratio
-- **Enhanced UI design** – Implemented modern toolbox with improved spacing and styling
+- **Responsive canvas design** – Added canvas resizing that adapts to window size while keeping aspect ratio
 - **Interactive button effects** – Added hover animations with translateY transforms and box shadows
 - **Improved layout structure** – Enhanced toolbox layout with flexbox and proper gap spacing
 - **Mobile responsiveness** – Added media queries for better mobile experience with flexible canvas sizing

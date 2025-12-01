@@ -22,8 +22,7 @@ A dynamic scroll-triggered animation system that reveals images from alternating
 
 ## Improvements Made
 - **Enhanced visual design** – Applied dark theme with Blade Runner 2049 color scheme
-- **Dynamic content** – Integrated high-quality images instead of placeholder content
-- **Contextual theming** – Added logo and cohesive visual identity
+- **Dynamic content** – Added high-quality from Blade Runner 2049 images instead of placeholder content
 - **Improved styling** – Enhanced responsive design with mobile-optimized layouts
 - **Improved UX** – Added button to scroll back to top of page
 

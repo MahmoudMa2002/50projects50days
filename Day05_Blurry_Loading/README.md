@@ -22,6 +22,7 @@ A dynamic loading screen with simultaneous blur reduction and text fade-out effe
 
 ## Improvements Made
 - **Progress bar** – Added visual progress bar alongside the countdown
+- **Manul integration** - Added image of Manul (Pallas's cat my beloved) instead of a generic background
 
 
 ## What I Learned

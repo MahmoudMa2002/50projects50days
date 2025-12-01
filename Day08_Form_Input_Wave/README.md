@@ -21,7 +21,6 @@ An animated form interface with floating label effects and smooth page transitio
 
 
 ## Improvements Made
-- **Enhanced visual design** – Applied modern dark theme with Inter font and improved styling
 - **Dynamic page system** – Added complete login/register page switching functionality
 - **Enhanced styling** – Applied modern design with better colors and spacing
 

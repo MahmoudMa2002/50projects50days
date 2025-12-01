@@ -21,13 +21,12 @@ An interactive rotating navigation interface with smooth page rotation and circu
 
 
 ## Improvements Made
-- **Enhanced visual design** – Applied Metal Gear Solid color scheme and typography styling
-- **Dynamic theming** – Added custom Metal Gear font and dark aesthetic
-- **Contextual content** – Metal Gear Solid universe content with thematic imagery
+- **Enhanced visual design** – Applied Metal Gear Solid color scheme and typography unique to Metal Gear Solid
+- **Content overhaul** – Added Metal Gear Solid universe content with fitting images instead of Lorem text
 
 
 ## What I Learned
-- CSS transform origin for controlling precise rotation anchor points
+- CSS transform origin for controlling rotation anchor points
 - CSS transitions with timing control for smooth animations
 - Event handling and class state toggling
 - Advanced positioning with fixed/absolute for layered interfaces

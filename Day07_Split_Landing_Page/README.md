@@ -24,7 +24,7 @@ A dynamic split-screen landing page with hover animations built with JavaScript.
 - **Enhanced visual design** – Added custom background images and improved overlay effects
 - **Better typography** – Upgraded font choices and positioning for better readability
 - **Interactive elements** – Added icons and improved button styling
-- **Professional styling** – Enhanced hover effects with scaling and glow animations
+- **Better styling** – Enhanced hover effects with scaling and glow animations
 
 
 ## What I Learned

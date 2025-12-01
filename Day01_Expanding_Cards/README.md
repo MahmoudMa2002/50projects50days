@@ -19,9 +19,9 @@ An interactive film card UI built with HTML, CSS, and JavaScript.
 
 
 ##  Improvements Made
-- **Movie-themed design** – Replaced generic images with curated film posters
-- **Letterboxd integration** – Added direct links to each film's review page
-- **Visual enhancements** – Refined styling with improved colors and polish
+- **Movie-themed design** – Replaced generic images with movie backgrounds for some movies i like
+- **Letterboxd integration** – Added direct links to each movie's letterboxd page
+- **Visual enhancements** – Refined styling with improved colors and polish inspired by letterboxd colors
 
 
 ##  What I Learned

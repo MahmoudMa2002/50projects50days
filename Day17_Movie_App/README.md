@@ -24,8 +24,7 @@ A dynamic movie discovery app that allows users to browse popular films and sear
 ## Improvements Made
 - **Enhanced visual design** – Applied modern dark theme with sticky header, smooth card animations, logo and default backgrounds for films with no posters
 - **Interactive elements** – Added hover effects with movie external link integration
-- **Pagination logic** – Implemented next/previous functionality with proper button state management and page tracking
-- **Responsive design** – Flexible grid layouts with proper image handling and loading states
+- **Pagination logic** – Added next/previous functionality with proper button state management and page tracking
 
 
 ## What I Learned

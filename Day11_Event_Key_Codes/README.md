@@ -22,9 +22,8 @@ A dynamic key detection application that displays key information and allows use
 
 
 ## Improvements Made
-- **Enhanced visual design** – Applied dark theme with custom color scheme
 - **Interactive feedback** – Added hover effects and copy confirmation with smooth transitions
-- **Copy functionality** – Implemented click-to-copy feature with visual feedback and success messages
+- **Copy functionality** – Added click-to-copy feature with visual feedback and success messages
 - **Responsive design** – Enhanced mobile layout with stacked key display and optimized spacing
 
 

@@ -20,7 +20,6 @@ A dynamic social media dashboard that displays animated counters for different p
 
 
 ## Improvements Made
-- **Enhanced visual design** – Applied modern dark theme with custom CSS variables and card shadows
 - **Interactive elements** – Added hover effects with smooth transform animations
 - **Responsive design** – Implemented mobile-optimized layouts that stack vertically on smaller screens
 

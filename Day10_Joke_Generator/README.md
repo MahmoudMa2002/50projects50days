@@ -23,8 +23,8 @@ A dynamic joke generator that fetches random dad jokes from an external API and 
 
 ## Improvements Made
 - **Enhanced visual design** – Applied modern card-based layout with custom color scheme
-- **Smooth animations** – Added hover effects and loading pulse animations
-- **Professional styling** – Enhanced typography and spacing for better readability
+- **Smooth animations** – Added hover effects and loading animations
+- **Better styling** – Enhanced typography and spacing for better readability
 - **Responsive design** – Implemented mobile-optimized layouts and font sizing
 
 

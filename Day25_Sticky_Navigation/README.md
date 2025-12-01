@@ -22,11 +22,10 @@ A dynamic navigation bar that transforms when scrolling, featuring smooth transi
 
 
 ## Improvements Made
-- **Complete content overhaul** – Transformed generic demo into a themed experience about Studio Ghibli's "Spirited Away" with meaningful content
-- **Enhanced visual design** – Implemented gradient backgrounds, hero sections with overlay effects, and improved typography using "Spirited Away" inspired fonts
+- **Content overhaul** – Implemented generic demo into a themed experience about Studio Ghibli's Spirited Away with meaningful content
+- **Enhanced visual design** – Implemented gradient backgrounds, hero sections with overlay effects, and improved typography using Spirited Away inspired fonts
 - **Advanced layout structure** – Added content sections with proper spacing and visual hierarchy for better readability
-- **Professional styling** – Enhanced navigation with gradient backgrounds, smooth scaling effects for the logo, and refined color schemes
-- **Improved responsiveness** – Added comprehensive media queries and flexible layouts for better mobile experience
+- **Improved responsiveness** – Added media queries and flexible layouts for better mobile experience
 
 
 ## What I Learned

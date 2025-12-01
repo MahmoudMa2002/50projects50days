@@ -21,7 +21,6 @@ A visual water consumption tracker that helps users monitor their daily hydratio
 
 
 ## Improvements Made
-- **Enhanced visual design** – Applied modern dark theme with custom CSS variables and smooth transitions
 - **Interactive elements** – Added hover effects on small cups with scaling animations
 - **UX Improvements** – Switched to milliliters for small remaining amounts, added a reset button and more minor imporvements
 

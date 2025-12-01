@@ -23,12 +23,11 @@ A skeleton loading screen with animated placeholder elements that transitions to
 
 ## Improvements Made
 - **Dynamic API integration** – Added real API functionality using JSONPlaceholder and RandomUser APIs to populate cards with actual data
-- **Modern dark theme** – Implemented color scheme with CSS custom properties for consistent styling
 - **Enhanced visual design** – Added hover effects with transform animations and improved box shadows
-- **Better typography** – Refined font weights, sizes, and spacing for improved readability
+- **Better typography** – Improved font weights, sizes, and spacing for improved readability
 - **Improved card layout** – Enhanced structure with better padding, spacing, and content organization
-- **Professional styling** – Added subtle transitions, rounded corners, and improved button design
-- **Better animation timing** – Optimized shimmer animation duration and easing for more natural loading effects
+- **Better styling** – Added subtle transitions, rounded corners, and improved button design
+- **Better animation timing** – Added shimmer animation duration and easing for more natural loading effects
 
 
 ## What I Learned

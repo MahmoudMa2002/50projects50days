@@ -23,8 +23,7 @@ An interactive grid of squares that change colors on hover, featuring toggleable
 
 ## Improvements Made
 - **Toggleable drawing mode** – Added click functionality to lock colors, allowing users to draw patterns
-- **Enhanced visual design** – Implemented dark theme with better color contrast
-- **Improved color palette** – Refined random color generation for more vibrant results
+- **Polished styling** – Refined overall design with shadows, and modern themes
 
 
 ## What I Learned

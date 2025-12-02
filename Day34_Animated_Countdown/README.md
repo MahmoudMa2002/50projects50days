@@ -21,8 +21,7 @@ A countdown timer with smooth rotation animations and event-driven sequencing, f
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented dark theme with custom CSS variables and gradient text effects
-- **Professional typography** – Enhanced text styling with gradient backgrounds and proper spacing
+- **Better typography** – Enhanced text styling with gradient backgrounds and proper spacing
 - **Better button design** – Styled replay button with hover effects and transitions
 
 

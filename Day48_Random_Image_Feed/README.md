@@ -22,9 +22,9 @@ A dynamic image gallery that fetches random photos from Unsplash API, featuring 
 
 
 ## Improvements Made
-- **Load more button** – Added manual control to fetch additional images on demand
-- **Enhanced styling** – Applied custom fonts that fit the gallery theme
-- **Hover effects** – Implemented smooth scale and overlay effects on image hover
+- **Load more button** – Added a button to fetch more images
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
+- **Hover effects** – Added scale and overlay effects on image hover
 
 
 ## What I Learned

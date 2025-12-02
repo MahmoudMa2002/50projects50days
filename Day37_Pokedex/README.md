@@ -23,7 +23,7 @@ A dynamic Pokemon showcase displaying the first 151 Pokemon with their stats, ty
 
 ## Improvements Made
 - **Hover shine effect** – Added animated shine overlay on card hover for visual appeal
-- **Card-like design** – Implemented modern card styling with shadows and rounded corners
+- **Card-like design** – Added card styling with shadows and rounded corners
 - **Enhanced visual polish** – Improved overall aesthetics with better spacing and transitions
 
 

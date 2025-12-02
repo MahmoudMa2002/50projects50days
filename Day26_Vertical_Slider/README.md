@@ -21,10 +21,10 @@ A visually striking vertical slider featuring split-screen design with logos and
 
 
 ## Improvements Made
-- **Theme integration** – Transformed generic nature content into a showcase featuring Metal Gear Solid V, MGS3, Red Dead Redemption 2, and Nier Automata
+- **Theme integration** – Replaced generic content into a games showcase.
 - **Enhanced visual assets** – Replaced placeholder content with game logos and layered backgrounds
-- **Improved logo presentation** – Added proper image sizing, drop shadows, and positioning for professional logo display
-- **Gradient background design** – Implemented custom gradient backgrounds that complement each game's color palette
+- **Improved logo presentation** – Added proper image sizing, drop shadows, and positioning for a better logo display
+- **Gradient background design** – Added custom gradient backgrounds that complement each game's color palette
 - **Keyboard navigation** – Added keyboard controls for improved accessibility and user experience
 - **Mobile responsiveness** – Added basic media queries with logo rotation and adaptive sizing for smaller screens
 

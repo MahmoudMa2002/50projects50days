@@ -22,9 +22,9 @@ An automated testimonial carousel that cycles through user reviews with smooth t
 
 
 ## Improvements Made
-- **Timeout progress bar** – Added visual indicator showing rotation progress
-- **Enhanced styling** – Applied modern design with better colors and spacing
-- **Navigation arrows** – Added manual skip functionality for user control
+- **Timeout progress bar** – Added progress bar for each slide
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
+- **Navigation arrows** – Added manual skip buttons for user control
 
 
 ## What I Learned

@@ -21,8 +21,8 @@ A robust password generator with customizable character sets and clipboard funct
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented dark theme with custom CSS variables and professional container styling
-- **Improved user interface** – Added FontAwesome icons for better visual hierarchy and intuitive control identification
+- **Improved user interface** – Added FontAwesome icons for better visual hierarchy
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

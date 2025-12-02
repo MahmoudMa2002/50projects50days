@@ -22,10 +22,9 @@ A sleek GitHub user profile viewer with error handling, enhanced visual design, 
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented modern dark theme with custom CSS variables and improved color palette
 - **Better error handling** – Added specific error messages for 404 (user not found) and 403 (rate limit) responses with visual feedback
 - **Repository display enhancement** – Added improved styling with hover effects and background color
-- **Professional card design** – Added fade-in animations, better avatar styling, and improved information hierarchy
+- **Better card design** – Added fade-in animations, better avatar styling, and improved information hierarchy
 - **Enhanced input experience** – Added focus states, box shadows, and better visual feedback for search functionality
 
 

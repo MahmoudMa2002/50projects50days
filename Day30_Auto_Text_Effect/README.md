@@ -22,7 +22,8 @@ A smooth typewriter effect with real-time speed control, featuring continuous te
 
 
 ## Improvements Made
-- **Better input validation** – Enhanced form styling with focus states and invalid input visual feedback
+- **Better input validation** – Improved form styling with focus states and invalid input visual feedback
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

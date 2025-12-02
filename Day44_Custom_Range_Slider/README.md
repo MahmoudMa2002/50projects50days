@@ -23,7 +23,7 @@ A custom-designed range slider with draggable thumb, dynamic value display, and 
 
 ## Improvements Made
 - **Draggable functionality** – Made slider fully draggable with click-and-hold support
-- **Enhanced styling** – Applied modern color scheme with better visual hierarchy
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 - **Improved interactions** – Added smoother transitions and better touch handling
 
 

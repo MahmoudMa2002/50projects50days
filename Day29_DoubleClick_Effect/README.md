@@ -22,8 +22,8 @@ A smooth interactive effect that creates animated circle icons when double-click
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented dark theme with custom CSS variables and modern color palette
 - **Improved image styling** – Added hover effects with smooth transforms and elevated shadow effects
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

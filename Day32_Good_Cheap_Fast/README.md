@@ -20,9 +20,8 @@ An interactive demonstration of the classic project management triangle where us
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented dark theme with custom CSS variables and professional color palette
 - **Improved toggle animation** – Added smooth cubic-bezier transitions with bounce effects
-- **User experience improvement** – Added descriptive subtitle text to explain the constraint rule clearly
+- **User experience improvement** – Added descriptive subtitle text to explain the constraint rule clearly, did a slight style improvments too
 
 
 ## What I Learned

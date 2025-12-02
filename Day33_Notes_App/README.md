@@ -21,8 +21,8 @@ A feature-rich note-taking application with markdown support and local storage p
 
 
 ## Improvements Made
-- **Enhanced visual design** – Added dark theme with custom CSS variables and modern color palette
 - **Improved user experience** – Added empty state with icon, heading, and description text for better onboarding
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

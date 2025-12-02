@@ -22,11 +22,10 @@ A toast notification system with customizable message types, smooth animations, 
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented dark theme with custom CSS variables and modern Poppins font
-- **Icon integration** – Added Font Awesome icons for different notification types with proper styling
+- **Icon integration** – Added Font Awesome icons for different notification types with better styling
 - **Improved animation system** – Added slide animations with better timing and smooth transitions
-- **Professional styling** – Added box shadows, border accents, and refined typography
-- **Better user experience** – Implemented proper close button functionality with hover effects and accessibility labels
+- **Better styling** – Added box shadows, border accents, and refined typography
+- **Better user experience** – Added close button functionality with hover effects and accessibility labels
 - **Added state management** – Added prevention for duplicate removal operations and improved cleanup logic
 
 

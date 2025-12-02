@@ -22,9 +22,9 @@ An interactive user feedback interface with emoji-based satisfaction ratings, fe
 
 
 ## Improvements Made
-- **Enhanced styling** – Applied modern design with better colors and spacing
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 - **Improved animations** – Added smoother transitions and hover effects
-- **Halloween theming** – Integrated themed images for seasonal appeal
+- **Halloween theming** – Added themed images for extra appeal
 
 
 ## What I Learned

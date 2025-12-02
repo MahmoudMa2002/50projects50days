@@ -22,9 +22,9 @@ An image carousel with smooth transitions, clickable indicators, and automatic s
 
 
 ## Improvements Made
-- **Enhanced visual design** – Implemented modern dark theme with custom CSS variables
 - **Interactive indicator dots** – Added clickable circular indicators with smooth transitions
 - **Improved button styling** – Enhanced navigation buttons with FontAwesome icons and hover effects
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

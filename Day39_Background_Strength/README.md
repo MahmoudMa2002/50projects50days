@@ -23,8 +23,9 @@ An interactive login interface where the background blur gradually clears as the
 
 ## Improvements Made
 - **Strength indicator bar** – Added visual progress bar showing password strength levels
-- **Enhanced calculation** – Improved password strength function with better criteria
+- **Enhanced calculation** – Improved password strength function
 - **Better UX feedback** – Implemented real-time visual indicators for user guidance
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

@@ -22,7 +22,7 @@ An interactive quiz application that presents multiple-choice questions, tracks 
 
 
 ## Improvements Made
-- **Enhanced styling** – Applied modern design with improved colors and spacing
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

@@ -24,8 +24,7 @@ An interactive 3D grid of rotating boxes that transform between a complete image
 ## Improvements Made
 - **Hover effects** – Added interactive hover states for individual boxes
 - **Enhanced animations** – Improved rotation timing and easing functions
-- **Better styling** – Refined visual design with better colors and spacing
-
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 ## What I Learned
 - CSS 3D transforms with rotateY and perspective

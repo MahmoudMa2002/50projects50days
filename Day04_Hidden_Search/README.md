@@ -19,7 +19,8 @@ A simple expandable search interface that transforms from a button into a full s
 
 
 ## Improvements Made
-- **Minimal changes** – Simple project, did a modifications to the original design and animations
+- **Minimal changes** – Simple project, did modifications to the original design and animations
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 
 
 ## What I Learned

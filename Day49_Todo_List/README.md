@@ -22,7 +22,7 @@ A functional todo list application with add, complete, and delete functionality,
 
 
 ## Improvements Made
-- **Enhanced styling** – Applied modern design with better colors and spacing
+- **Polished styling** – Refined overall design with shadows, borders, and modern themes
 - **Hover effects** – Added interactive hover states for todo items and buttons
 - **Empty state** – Implemented helpful message when no todos exist
 

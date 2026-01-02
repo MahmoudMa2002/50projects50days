@@ -59,6 +59,14 @@ This collection features 50 web development projects built with HTML, CSS, and J
 | 49 | Todo List | [Demo](https://codepen.io/MahmoudMa2002/full/jEPxmYB) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day49_Todo_List) |
 | 50 | Simple Timer | [Demo](https://codepen.io/MahmoudMa2002/full/WbvJEpW) | [Code](https://github.com/MahmoudMa2002/50projects50days/tree/main/Day50_Simple_Timer) |
 
+## For Reviewers
+
+Each project folder contain:
+- A project-specific README
+- Notes on improvements or deviations from the original projects
+
+---
+
 ## Course Information
 
 *These projects are based on the [50 Projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/) course by [Brad Traversy](https://github.com/bradtraversy), designed to improve your HTML, CSS, and JavaScript skills.*

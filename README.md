@@ -65,7 +65,6 @@ Each project folder contain:
 - A project-specific README
 - Notes on improvements or deviations from the original projects
 
----
 
 ## Course Information
 
